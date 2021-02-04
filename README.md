@@ -26,12 +26,10 @@ Created Feb 3, 2021
 **Stateless / Functional**
 
 * Should be used when you have no use for state or lifecycle methods
-* Newly added to React, you can use state with functional components by creating a [React hook](https://reactjs.org/docs/hooks-overview.html) and "hooking into using React state".
 
 **Stateful / Class**
 
 * Should be used whenever you need to use state or [lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html).
-* Newly added to React, you can use state with functional components by creating a [**React hook**](https://reactjs.org/docs/hooks-overview.html). See the React hooks API [here](https://reactjs.org/docs/hooks-reference.html).
 
 
 # INSTRUCTIONS
@@ -61,7 +59,7 @@ Then,
 ----
 ## Checklist of Features to Complete
 
-### Step 1: Connect your React app to the browser, using `index.js`
+### Step 1: Connect your React app to the browser, using `index.jsx`
 
 * Render `App.jsx` to our `index.html`.
 
