@@ -26,12 +26,10 @@ Created Feb 3, 2021
 **Stateless / Functional**
 
 * Should be used when you have no use for state or lifecycle methods
-* Newly added to React, you can use state with functional components by creating a [React hook](https://reactjs.org/docs/hooks-overview.html) and "hooking into using React state".
 
 **Stateful / Class**
 
 * Should be used whenever you need to use state or [lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html).
-* Newly added to React, you can use state with functional components by creating a [**React hook**](https://reactjs.org/docs/hooks-overview.html). See the React hooks API [here](https://reactjs.org/docs/hooks-reference.html).
 
 
 # INSTRUCTIONS
@@ -108,5 +106,9 @@ Then,
 ### Stretch Goal 2: Add favorite functionality to `App.jsx`
 
 * When a `ListItem` is clicked, it should be added to the favorites list and rendered on the page.
+
+### Stretch Goal 3: Add functionality to remove favorites to `Favorites.jsx`
+
+* When a `favorite` is clicked, it should be removed from the favorites list in state and the page should rerender accordingly.
 
 **Further steps to test your abilities are to come!**
