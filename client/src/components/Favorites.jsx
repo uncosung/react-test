@@ -8,7 +8,7 @@ const Favorites = (props) => {
         <div className = 'favoritesList'>
         {props.favorites.map((drink, index) => {
           return (
-            <div className = 'favorite' key={index}>
+            <div className = 'favorite' key={index} onClick = {props.removeFavorite} data-drink={drink.idDrink}>
               <h4>{drink.strDrink}</h4>
               <div className = 'imgDiv'>
                 <img src = {drink.strDrinkThumb}/>

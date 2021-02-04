@@ -107,7 +107,7 @@ Then,
 
 * When a `ListItem` is clicked, it should be added to the favorites list and rendered on the page.
 
-### Stretch Goal 3: Add functionality to remove favorites to `Favorites.jsx`
+### Stretch Goal 3: Add functionality to remove favorites to `App.jsx`
 
 * When a `favorite` is clicked, it should be removed from the favorites list in state and the page should rerender accordingly.
 

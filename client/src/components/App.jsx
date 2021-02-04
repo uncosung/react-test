@@ -11,6 +11,7 @@ export default class App extends React.Component {
       favorites: []
     };
     this.handleClick = this.handleClick.bind(this);
+    this.removeFavorite = this.removeFavorite.bind(this);
   }
   handleClick(e) {
     let favorites = this.state.favorites;
@@ -23,6 +24,20 @@ export default class App extends React.Component {
       favorites: favorites
     });
   }
+  removeFavorite(e) {
+    const drinkToRemove = e.currentTarget.getAttribute('data-drink');
+    let newFavorites = [];
+    for (const drink of this.state.favorites) {
+      if (drink.idDrink === drinkToRemove) {
+        newFavorites = this.state.favorites.filter((value) => (
+          value.idDrink !== drink.idDrink
+        ))
+      }
+    }
+    this.setState({
+      favorites: newFavorites
+    });
+  }
   componentDidMount() {
     this.setState({
       drinks: dummy.drinks
@@ -32,7 +47,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h2 className = 'header'>Cocktails</h2>
-        <Favorites favorites={this.state.favorites}/>
+        <Favorites favorites={this.state.favorites} removeFavorite = {this.removeFavorite}/>
         <List handleClick = {this.handleClick} drinks = {this.state.drinks}/>
       </div>
     )
