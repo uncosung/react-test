@@ -1,6 +1,6 @@
 .list {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 .listItem {
   width: 20%;
@@ -12,12 +12,13 @@
 .header {
   text-align: center;
 }
-.details {
-  text-align: center;
+.favoritesList {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
-.details button {
-  position: absolute;
-  left: 20px;
+.favorite {
+  width: 20%;
 }
 .imgDiv {
   width: 50%;

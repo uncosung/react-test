@@ -99,28 +99,14 @@ Then,
 * You should see a rendered list of cocktails, with their name and image displayed.
 
 ----
-### Stretch Goal 1: Write out `Search.jsx`
+### Stretch Goal 1: Write out `Favorites.jsx`
 
-* Create **Search** as a *stateful/class* component
-* Create a piece of state to store user input in the text field
+* Create **Favorites** as a *functional* component
+* Update app's state to store a list of favorite drinks
 
 ----
-### Stretch Goal 2: Add functionality to `Search.jsx`
+### Stretch Goal 2: Add favorite functionality to `App.jsx`
 
-* Capture the information typed into the `<form>`, so that we can update **App**'s state with it.
-
->We can do this by implementing & updating state within the **Search** component.
-
-1) Write out functionality to update the state of **Search** as it changes with user input. *Hint: you may need the `onChange` listener!*
-2) Write out functionality that takes the updated state and calls the function to update **App**'s state with the new drinks after making an HTTP request to TheCocktailDB API.
-
-### Stretch Goal 3: Write out `Details.jsx`
-
-* Create **Details** as a *functional* component.
-* The component should render the details of a specific drink that is returned as the result of an HTTP request to TheCocktailDB API. *Hint: Take a look at the id of each listItem*
-
-### Stretch Goal 4: Add functionality to `App.jsx` that will handle `listItem` clicks and conditionally render a new page
-* Read through the React [Documentation](https://reactjs.org/docs/conditional-rendering.html) to get a better understanding of conditional rendering
-* Have some way to check state and render different components based on what we want to display on the page
+* When a `ListItem` is clicked, it should be added to the favorites list and rendered on the page.
 
 **Further steps to test your abilities are to come!**
