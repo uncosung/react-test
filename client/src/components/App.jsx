@@ -12,8 +12,6 @@ export default class App extends React.Component {
       favorites: []
     };
     this.handleClick = this.handleClick.bind(this);
-    // this.setView = this.setView.bind(this);
-    // this.handleSearch = this.handleSearch.bind(this);
   }
   handleClick(e) {
     let favorites = this.state.favorites;
@@ -39,39 +37,5 @@ export default class App extends React.Component {
         <List handleClick = {this.handleClick} drinks = {this.state.drinks}/>
       </div>
     )
-    // switch(this.state.view) {
-    //   case 'list':
-    //     return (
-    //       <div>
-    //         <h2 className = 'header'>
-    //           Cocktails
-    //         </h2>
-    //         <Search handleSearch = {this.handleSearch}/>
-    //         <List handleClick = {this.handleClick} drinks = {this.state.drinks}/>
-    //       </div>
-    //     )
-    //   case 'drink':
-    //     return (
-    //       <div>
-    //         <h2 className = 'header'>
-    //           Cocktails
-    //         </h2>
-    //         <Search handleSearch = {this.handleSearch}/>
-    //         <Details currentDrink = {this.state.currentDrink} setView = {this.setView}/>
-    //       </div>
-    //     )
-    //   case 'error':
-    //     return (
-    //       <div>
-    //         <h2 className = 'header'>
-    //           Cocktails
-    //         </h2>
-    //         <Search handleSearch = {this.handleSearch}/>
-    //         <div>
-    //           Error, no drinks found with containing that ingredient. Please search again.
-    //         </div>
-    //       </div>
-    //     )
-    // }
   }
 }
