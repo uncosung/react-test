@@ -1,12 +1,8 @@
-import React from 'react';
+//TODO
 
-const ListItem = (props) => (
-  <div onClick = {props.handleClick} className = 'listItem' id = {props.drink.idDrink}>
-    <h4>{props.drink.strDrink}</h4>
-    <div className = 'imgDiv'>
-      <img src = {props.drink.strDrinkThumb}/>
-    </div>
+{/* <div class = "listItem" id = {id}>
+  <h4>Drink Name</h4>
+  <div class = "imgDiv">
+    <img src = {img source}/>
   </div>
-);
-
-export default ListItem;
+</div> */}
