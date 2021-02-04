@@ -40,6 +40,7 @@ Created Feb 3, 2021
 ## How to get started
 1. Ensure that you have [Node](https://nodejs.org/en/) installed
 2. Ensure that you have **forked** and **cloned** this [repo](https://github.com/uncosung/react-test) to your computer with `git clone https://github.com/uncosung/react-test.git`, then `cd react-test`
+3. Read through the endpoints used in [TheCocktailDb](https://www.thecocktaildb.com/api.php)
 
 Then,
 
@@ -109,12 +110,12 @@ Then,
 >We can do this by implementing & updating state within the **Search** component.
 
 1) Write out functionality to update the state of **Search** as it changes with user input. *Hint: you may need the `onChange` listener!*
-2) Write out functionality that takes the updated state and calls the function to update **App**'s state with the new drinks after making an HTTP request to the cocktailsDB API.
+2) Write out functionality that takes the updated state and calls the function to update **App**'s state with the new drinks after making an HTTP request to TheCocktailDB API.
 
 ### Step 9: Write out `Details.jsx`
 
 * Create **Details** as a *functional* component.
-* The component should render the details of a specific drink that is returned as the result of an HTTP request to the cocktailsDB API. *Hint: Take a look at the id of each listItem*
+* The component should render the details of a specific drink that is returned as the result of an HTTP request to TheCocktailDB API. *Hint: Take a look at the id of each listItem*
 
 ### Step 10: Add functionality to `App.jsx` that will handle `listItem` clicks and conditionally render a new page
 * Read through the React [Documentation](https://reactjs.org/docs/conditional-rendering.html) to get a better understanding of conditional rendering
