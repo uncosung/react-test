@@ -88,8 +88,8 @@ Then,
 ----
 ### Step 5: Refactor `List.jsx` and `ListItems.jsx` for variable data
 
+* Import the static drink data from `dummy.js` and have `App.jsx` set its state once the page is loaded
 *  **List** should render one **ListItem** for each drink in the array in **App**'s state
-
 * **ListItem** components should be able to conditionally render the drink's `strDrink` (name), and `strDrinkThumb` (thumbnail image) based on what is passed down to it via `props`.
 
 ----
@@ -108,5 +108,9 @@ Then,
 ### Stretch Goal 2: Add favorite functionality to `App.jsx`
 
 * When a `ListItem` is clicked, it should be added to the favorites list and rendered on the page.
+
+### Stretch Goal 3: Add functionality to remove favorites to `App.jsx`
+
+* When a `favorite` is clicked, it should be removed from the favorites list in state and the page should rerender accordingly.
 
 **Further steps to test your abilities are to come!**
