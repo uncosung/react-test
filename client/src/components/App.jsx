@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import List from './List.jsx';
 import Favorites from './Favorites.jsx';
 import dummy from '../../../public/data/dummy.js';
