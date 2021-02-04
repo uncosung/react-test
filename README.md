@@ -54,6 +54,8 @@ Then,
 
 * With this project, we will be creating an application that will display a list of cocktails made with a searched ingredient.
 
+![](cocktail.gif)
+
 * Our task is to build out functionalities to **render** a default list of cocktails, **search** for cocktails based on an ingredient, and **view details** of each cocktail. *Let's get started!*
 
 ----
