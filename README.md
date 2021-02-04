@@ -99,13 +99,13 @@ Then,
 * You should see a rendered list of cocktails, with their name and image displayed.
 
 ----
-### Step 7: Write out `Search.jsx`
+### Stretch Goal 1: Write out `Search.jsx`
 
 * Create **Search** as a *stateful/class* component
 * Create a piece of state to store user input in the text field
 
 ----
-### Step 8: Add functionality to `Search.jsx`
+### Stretch Goal 2: Add functionality to `Search.jsx`
 
 * Capture the information typed into the `<form>`, so that we can update **App**'s state with it.
 
@@ -114,12 +114,12 @@ Then,
 1) Write out functionality to update the state of **Search** as it changes with user input. *Hint: you may need the `onChange` listener!*
 2) Write out functionality that takes the updated state and calls the function to update **App**'s state with the new drinks after making an HTTP request to TheCocktailDB API.
 
-### Step 9: Write out `Details.jsx`
+### Stretch Goal 3: Write out `Details.jsx`
 
 * Create **Details** as a *functional* component.
 * The component should render the details of a specific drink that is returned as the result of an HTTP request to TheCocktailDB API. *Hint: Take a look at the id of each listItem*
 
-### Step 10: Add functionality to `App.jsx` that will handle `listItem` clicks and conditionally render a new page
+### Stretch Goal 4: Add functionality to `App.jsx` that will handle `listItem` clicks and conditionally render a new page
 * Read through the React [Documentation](https://reactjs.org/docs/conditional-rendering.html) to get a better understanding of conditional rendering
 * Have some way to check state and render different components based on what we want to display on the page
 
